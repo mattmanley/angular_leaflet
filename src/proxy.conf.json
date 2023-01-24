@@ -1,0 +1,11 @@
+{
+  "/api/neighborhoods": {
+    "target": "http://localhost:3081",
+    "secure": false
+  },
+
+  "/api/restaurants": {
+    "target": "http://localhost:3081",
+    "secure": false
+  }
+}
