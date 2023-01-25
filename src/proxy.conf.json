@@ -1,11 +1,11 @@
 {
   "/api/neighborhoods": {
-    "target": "http://localhost:3081",
-    "secure": false
+    "target": "https://leaflet-node.onrender.com",
+    "secure": true
   },
 
   "/api/restaurants": {
-    "target": "http://localhost:3081",
-    "secure": false
+    "target": "https://leaflet-node.onrender.com",
+    "secure": true
   }
 }

@@ -28,10 +28,14 @@ export class GeospatialService {
   constructor(private http: HttpClient) {}
 
   getNeighborhoods() {
-    return this.http.get<neighborhoodResponse[]>('/api/neighborhoods');
+    return this.http.get<neighborhoodResponse[]>(
+      'https://leaflet-node.onrender.com/api/neighborhoods'
+    );
   }
 
   getRestaurants() {
-    return this.http.get<restaurantResponse[]>('/api/restaurants');
+    return this.http.get<restaurantResponse[]>(
+      'https://leaflet-node.onrender.com/api/restaurants'
+    );
   }
 }
